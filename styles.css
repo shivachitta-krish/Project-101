@@ -1,0 +1,128 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Joy Section */
+#joy {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+}
+
+/* Melancholy Section */
+#melancholy {
+    background: linear-gradient(135deg, #4A5899, #8B7FB8);
+}
+
+/* Serenity Section */
+#serenity {
+    background: linear-gradient(135deg, #7FD4C1, #B8E5D2);
+}
+
+/* Chaos Section */
+#chaos {
+    background: linear-gradient(135deg, #8B0000, #DC143C);
+}
+
+/* Article Cards */
+article {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+article:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Images */
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Captions */
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+figcaption h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+figcaption p {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
